@@ -13,6 +13,16 @@ namespace _20_SwitchDemo
             Console.Write("Enter 1, 2, or 3: ");
             int num = int.Parse(Console.ReadLine());
 
+            // else if to solve the number entered
+            if (num==1)
+                Console.WriteLine("ONE ONE ONE");
+            else if (num == 2)
+                Console.WriteLine("Two Two Two.");
+            else if (num==3)
+                Console.WriteLine("That's a THREE baby!!!");
+            else
+                Console.WriteLine("Way to mess it all up budday.");
+
             // Determine the number entered.
             switch (num)
             {

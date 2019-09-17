@@ -26,14 +26,14 @@ namespace _08_GlazerCalc
             if (width < MIN_WIDTH)
             {
                 Console.WriteLine("Width is too small.\n\n ");
-                Console.WriteLine("Using minimum");
+                Console.WriteLine("Using minimum of 0.5");
                 width = MIN_WIDTH;
             }
 
-            if (width > MAX_WIDTH)
+            else if (width > MAX_WIDTH)
             {
                 Console.WriteLine("Width is too large.\n\n");
-                Console.WriteLine("Using maximum");
+                Console.WriteLine("Using maximum of 5.0");
                 width = MAX_WIDTH;
             }
 
@@ -44,13 +44,13 @@ namespace _08_GlazerCalc
             if (height < MIN_HEIGHT)
             {
                 Console.WriteLine("Height is too small.\n\n");
-                Console.WriteLine("Using minimum");
+                Console.WriteLine("Using minimum of .75");
                 height = MIN_HEIGHT;
             }
-            if (height > MAX_HEIGHT)
+            else if (height > MAX_HEIGHT)
             {
                 Console.WriteLine("Height is too large.\n\n");
-                Console.WriteLine("Using maximum");
+                Console.WriteLine("Using maximum of 3.0");
                 height = MAX_HEIGHT;
             }
 
