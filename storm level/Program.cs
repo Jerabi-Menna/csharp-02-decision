@@ -10,10 +10,8 @@ namespace storm_level
     {
         static void Main()
         {
-            int WindSpeed;
-
             Console.Write("what is the Wind speed of the storm in MPH as an integer?: ");
-            WindSpeed = int.Parse(Console.ReadLine());
+            int WindSpeed = int.Parse(Console.ReadLine());
 
             if (WindSpeed <= 74)
                 Console.WriteLine("There is no Storm all is safe");
@@ -27,6 +25,8 @@ namespace storm_level
                 Console.WriteLine("this is considered a Category 4 Storm");
             else
                 Console.WriteLine("this is considered a Category 5 Storm");
+            Console.Write("\nPress any key to exit...");
+            Console.ReadKey();
         }
     }
 }
