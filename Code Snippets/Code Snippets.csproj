@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA479B35-78EF-4BC7-BFC1-EF3D3AC0C8C9}</ProjectGuid>
+    <ProjectGuid>{C8D227FA-CAB2-4DE2-B112-F63F1B788920}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06_StormLevel</RootNamespace>
-    <AssemblyName>06-StormLevel</AssemblyName>
+    <RootNamespace>Code_Snippets</RootNamespace>
+    <AssemblyName>Code Snippets</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>_06_StormLevel.StormLevel</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StormLevel.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

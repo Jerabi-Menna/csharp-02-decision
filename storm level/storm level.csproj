@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA479B35-78EF-4BC7-BFC1-EF3D3AC0C8C9}</ProjectGuid>
+    <ProjectGuid>{116FF611-2EA0-4395-A7B6-FC78A9B87F91}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06_StormLevel</RootNamespace>
-    <AssemblyName>06-StormLevel</AssemblyName>
+    <RootNamespace>storm_level</RootNamespace>
+    <AssemblyName>storm level</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_06_StormLevel.StormLevel</StartupObject>
+    <StartupObject>storm_level.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StormLevel.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
