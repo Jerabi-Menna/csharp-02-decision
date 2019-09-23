@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-PassOrFail", "04-PassOrF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-StormLevel", "06-StormLevel\06-StormLevel.csproj", "{FA479B35-78EF-4BC7-BFC1-EF3D3AC0C8C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-TestBooleanOps", "08-TestBooleanOps\08-TestBooleanOps.csproj", "{12D04216-903D-4AEE-A9D5-8A1A0CBA9593}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-GlazerCalc", "08-GlazerCalc\08-GlazerCalc.csproj", "{12D04216-903D-4AEE-A9D5-8A1A0CBA9593}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-SwitchDemo", "20-SwitchDemo\20-SwitchDemo.csproj", "{428DF784-5C7E-4C23-947C-FF9FB6992B95}"
 EndProject

@@ -28,8 +28,10 @@ namespace _01_FirstDecision
                 Console.WriteLine($"The number is > 3");
             else if (myDouble < 2.0)
                 Console.WriteLine($"The number is < 2");
+            else if (myDouble is 3)
+                Console.WriteLine($"the number is 3");
             else
-                Console.WriteLine($"The number is > 2 but < 3");
+                Console.WriteLine($"the number is less than 2 but greater than 3");
         }
     }
 }
