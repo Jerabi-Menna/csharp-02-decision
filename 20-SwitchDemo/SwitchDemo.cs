@@ -13,7 +13,7 @@ namespace _20_SwitchDemo
             Console.Write("Enter 1, 2, or 3: ");
             int num = int.Parse(Console.ReadLine());
 
-            // else if to solve the number entered
+            // else if to solve the number entered (requires program to read over all the else)
             if (num==1)
                 Console.WriteLine("ONE ONE ONE");
             else if (num == 2)
@@ -23,7 +23,7 @@ namespace _20_SwitchDemo
             else
                 Console.WriteLine("Way to mess it all up budday.");
 
-            // Determine the number entered.
+            // Determine the number entered. (jumps all the else straight to the case needed)
             switch (num)
             {
                 case 1:

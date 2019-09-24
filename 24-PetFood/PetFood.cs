@@ -22,9 +22,11 @@ namespace _24_PetFood
             {
                 case 'a':
                 case 'A':
-                    Console.WriteLine("30c per lb.");
+                    if(foodGrade == 'a')
+                        Console.WriteLine("30c per lb.");
+                    else
+                        Console.WriteLine("30c per lb. IN CAPITALS");
                     break;
-
                 case 'b':
                 case 'B':
                     Console.WriteLine("20c per lb.");
